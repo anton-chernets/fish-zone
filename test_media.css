@@ -1,0 +1,197 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1000px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 950px) {
+    #responsive-menu > ul {
+        margin: 10px 8% auto 8%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    body .main_footer {
+        height: 300px;
+    }
+    .main_footer {
+        padding: 0;
+    }
+    body .item p {
+        margin: 5px 0px auto auto;
+    }
+    body a.names {
+        display: block;
+        margin: 5px auto 5px auto;
+        width: 250px;
+    }
+    div.logo {
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+}
+@media only screen and (max-width: 864px) {
+    #responsive-menu > button .btn-primary {
+        width: 75px;
+    }
+    .navbar .header p.cab {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    span.black_blok {
+        margin-right: auto;
+        margin-left: auto;
+        width: 250px;
+    }
+    .carousel div.width_carousel {
+        width: auto;
+    }
+    .carousel .carousel-control {
+        bottom: 0;
+        top: 0;
+    }
+    .filter-catalog {
+        padding: 30px 50px 15px 50px;
+    }
+    #responsive-menu > button {
+        background-color: #3d3d3d;
+    }
+    .cabinet a.corect {
+        left: 150px;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 700px) {
+    body .reclam-site {
+        padding: 15px 20px 15px 20px;
+    }
+    .cabinet a.corect {
+        left: 50px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 600px) {
+    body .reclam-site {
+        padding: 10px 5px 10px 5px;
+    }
+    .registr {
+        padding: 0 50px 30px 50px;
+    }
+    .add-the-places {
+        padding: 20px 20px 20px 20px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .name-page-text p {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    body .links {
+        padding-right: 10px;
+        font-size: 16px;
+    }
+    body button.btn-reclam-site {
+        font-size: 16px;
+        width: 80%;
+        height: 80%;
+    }
+    .registr {
+        padding: 0 20px 15px 20px;
+    }
+    #comment-field {
+        width: 300px;
+    }
+    input.registration {
+        background-color: #0c141f;
+        color: #fff;
+        font-size: 20px;
+        text-transform: uppercase;
+        width: 300px;
+        height: 70px;
+    }
+    .add-the-places {
+        padding: 10px 10px 10px 10px;
+    }
+    div.lives {
+        margin-right: 1%;
+    }
+    div.features {
+        margin-left: 1%;
+    }
+    .cabinet a.corect {
+        left: 10px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    body > div > div > div > div > a > img {
+        width: 100px;
+    }
+    .filter-catalog {
+        padding: 15px 20px 10px 20px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    div.lives,
+    div.features {
+        height: 470px;
+    }
+    .cabinet div.number-phone {
+        font-size: 30px;
+    }
+    .cabinet a.corect {
+        display: block;
+        position: static;
+    }
+    .navbar > .container-fluid a.navbar-brand, .navbar > .container-fluid a.navbar-brand img{
+        display: none;
+    }
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 370px) {
+    .registr h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .login-pasword input {
+    width: 250px;
+}
+}
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .partners-left,
+    .partners-right {
+        margin-top: 30px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}

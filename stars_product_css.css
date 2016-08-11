@@ -1,0 +1,63 @@
+
+#reviewStars-input_product input:checked ~ label,
+#reviewStars-input_product label,
+#reviewStars-input_product label:hover,
+#reviewStars-input_product label:hover ~ label {
+    background: url('img/stars_product.png') no-repeat;
+}
+#reviewStars-input_product {
+    /*fix floating problems*/
+    overflow: hidden;
+    *zoom: 1;
+    /*end of fix floating problems*/
+    position: relative;
+    float: left;
+}
+#reviewStars-input_product input {
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    width: 9px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+#reviewStars-input_product input:checked ~ label {
+    background-position: 0 -9px;
+    height: 9px;
+    width: 10px;
+}
+#reviewStars-input_product label {
+    background-position: 0 0;
+    height: 9px;
+    width: 10px;
+    float: right;
+    cursor: pointer;
+    margin-right: 2px;
+    position: relative;
+    z-index: 1;
+}
+#reviewStars-input_product label:hover,
+#reviewStars-input_product label:hover ~ label {
+    background-position: 0 -9px;
+    height: 9px;
+    width: 10px;
+}
+#reviewStars-input_product #star-0_product {
+    left: 0px;
+}
+#reviewStars-input_product #star-1_product {
+    left: 10px;
+}
+#reviewStars-input_product #star-2_product {
+    left: 20px;
+}
+#reviewStars-input_product #star-3_product {
+    left: 30px;
+}
+#reviewStars-input_product #star-4_product {
+    left: 40px;
+}
+#reviewStars-input_product #star-5_product {
+    left: 50px;
+}

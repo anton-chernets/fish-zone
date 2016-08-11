@@ -1,0 +1,35 @@
+import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+body {
+    background-color: #3498db;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 50px;
+    font-size: 100%;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    white-space: nowrap;
+    margin: 0;
+}
+.slabtexted .slabtext {
+    display: -moz-inline-box;
+    display: inline-block;
+    white-space: nowrap;
+}
+.slabtextinactive .slabtext {
+    display: inline;
+    white-space: normal;
+    font-size: 1em !important;
+    letter-spacing: inherit !important;
+    word-spacing: inherit !important;
+    *letter-spacing: 0 !important;
+    *word-spacing: 0 !important;
+}
+.slabtextdone .slabtext {
+    display: block;
+}
+body {
+    font-size: 100%;
+    /* начните с гибкой исходной базы, более подробно об этом написано в следующем разделе */
+}

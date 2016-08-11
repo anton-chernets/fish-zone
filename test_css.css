@@ -1,0 +1,665 @@
+body div.navbar {
+    margin-bottom: 0;
+    height: 70px;
+}
+body .header p,
+body .header a {
+    color: #b4b4b4;
+    text-transform: uppercase;
+}
+.navbar > .container-fluid a.navbar-brand {
+    padding: 5px 0 0 0;
+    margin-left: 15px;
+}
+.navbar > .container-fluid a.navbar-brand img {
+    width: 215px;
+    height: 60px;
+}
+#responsive-menu {
+    color: #000;
+    background-color: #fff;
+}
+#responsive-menu > ul {
+    margin: 10px 15% auto 12%;
+}
+#responsive-menu button.btn-add-place {
+    width: 150px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, .0);
+    border: 1px solid black;
+    border-radius: 0;
+    margin-top: 18px;
+}
+.header .button-login-form button {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: rgba(0, 0, 0, .0);
+    /*padding: 0;*/
+}
+body .header .navbar-toggle span {
+    background-color: #000;
+}
+body .container-fluid {
+    padding: 0;
+}
+.container-width {
+    max-width: 950px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+.name-page {
+    height: 75px;
+    text-align: center;
+}
+.name-page-text {
+    display: inline-block;
+}
+.name-page-text p {
+    font-size: 25px;
+    margin-top: 20px;
+    color: #898989;
+}
+.photo-fish img {
+    width: 100%;
+    height: 200px;
+}
+.reclam-ban {
+    height: 150px;
+}
+.reclam-site {
+    min-height: 250px;
+    background-color: #006a9b;
+    padding: 25px 70px 25px 70px;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+}
+body > div:nth-child(5) > div > div > div {
+    padding: 0;
+    /*col дает паддинг*/
+}
+.text-recl {
+    color: #fff;
+    text-align: right;
+}
+div.links p {
+    width: 50px;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+}
+body button.btn-reclam-site {
+    background-color: inherit;
+    border-radius: 0;
+    border: 2px solid #fff;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+}
+body .links {
+    text-align: right;
+    padding-right: 35px;
+}
+body .links li {
+    padding-right: 20px;
+}
+body .text-recl button {
+    margin-right: 40px;
+}
+body .text-recl a {
+    margin-right: 40px;
+}
+body .slider_goods div.slide {
+    padding: 0 0 20px 0;
+}
+body .slider_goods div.slide h2 {
+    margin-bottom: 25px;
+    padding-left: 35px;
+}
+body div.container {
+    padding: 0;
+}
+.carousel div.width_carousel {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body .img-responsive,
+body .thumbnail > img {
+    display: block;
+    width: 250px;
+    height: 200px;
+}
+.carousel .carousel-control {
+    width: 8%;
+    opacity: 1;
+    top: 25%;
+    bottom: auto;
+}
+body .thumbnail {
+    margin-bottom: 0;
+    border: none;
+    color: #000;
+    padding: 0;
+}
+body .item {
+    text-align: right;
+}
+body span.black_blok p {
+    margin: 5px 0px auto auto;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.all_stars_block {
+    text-align: left;
+}
+.fa-comment {
+    color: #7cacee;
+}
+body a.names {
+    margin: 5px 0px auto auto;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+body .carousel-control.right,
+body .carousel-control.left {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .0) 100%);
+}
+.black_blok .comments p {
+    text-transform: uppercase;
+}
+.comments i,
+.comments p {
+    display: inline-block;
+}
+span.black_blok p {
+    color: #fff;
+}
+span.black_blok {
+    display: block;
+    width: 247px;
+    height: 65px;
+    padding: 5px;
+    margin-top: -1px;
+    background-color: #0c141f;
+}
+.products {
+    margin: 30px 0 40px 0;
+}
+.block_product {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+span.name_product a {
+    text-decoration: none;
+}
+span.name_product p {
+    color: #000;
+    font-size: 15px;
+}
+img.img-product {
+    width: 250px;
+    height: 180px;
+}
+.info_products .col-xs-12,
+.info_products .col-xs-6 {
+    padding: 0;
+}
+span.comments_products .fa,
+span.comments_products a.comments p,
+a.vote p {
+    color: #666666;
+}
+span.comments_products p.reviews {
+    text-decoration: underline;
+}
+.info_products .price p {
+    display: inline-block;
+}
+p.price {
+    font-size: 16px;
+    font-weight: bold;
+}
+.products .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.login-form {
+    padding-top: 60px;
+    text-align: center;
+    background-color: #0c141f;
+    color: #6c7178;
+}
+.clear {
+    clear: both;
+}
+.key-logo img {
+    width: 115px;
+    width: 150px;
+}
+.login-form h4 {
+    color: #e1e2e4;
+}
+.login-pasword input {
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    color: #242424;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.form-log form.login-pasword input.login-in {
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, .0);
+    color: #fdfdfd;
+    text-transform: uppercase;
+}
+.form-log form.login-pasword a,
+.login-pasword span p,
+.form-log>p {
+    color: #6c7178;
+    font-size: 12px;
+}
+div.form-log > form > a:nth-child(7) {
+    margin-right: 60px;
+}
+.form-log .login-pasword input.check {
+    width: 30px;
+    margin-top: 10px;
+}
+.login-pasword span p {
+    width: 250px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+div.form-log > form > article {
+    margin: 50px auto 20px auto;
+}
+div.form-log > form > article > h5 {
+    margin-bottom: 8px;
+}
+div.form-log > form > article > p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 8px;
+}
+div.form-log > form > article > p:nth-child(2) {
+    color: #3a6196;
+    margin-bottom: 10px;
+    line-height: 15px;
+}
+.social_wrap ul {
+    margin-left: -35px;
+}
+.login-form .social_wrap {
+    padding-bottom: 20px;
+}
+.contacts {
+    padding: 30px 10px 25px 10px;
+}
+div.text-contacts > div > p {
+    font-size: 12px;
+    white-space: pre;
+}
+.registr {
+    padding: 0 100px 50px 100px;
+}
+.contacts,
+.registr,
+.add-the-places,
+.cabinet {
+    border-top: 1px solid #f1f1f1;
+}
+.registr h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.registr .login-pasword input {
+    margin-bottom: 0;
+}
+.form {
+    margin-bottom: 30px;
+}
+body div.form > div.col-xs-12.col-sm-12.col-md-5.col-lg-5 {
+    padding: 0;
+}
+.registr label {
+    float: left;
+    font-size: 20px;
+}
+#comment-field {
+    width: 400px;
+    height: 320px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+label.disabled {
+    color: #fff;
+}
+input.registration {
+    background-color: #0c141f;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    width: 400px;
+    height: 100px;
+}
+div.registr > p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.login-pasword input.avatar {
+    height: 225px;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+.filter-catalog {
+    padding: 50px 100px 20px 100px;
+}
+.filter-catalog div.padding_o {
+    padding: 0;
+}
+.filter-catalog .black_blok {
+    display: block;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.filter-catalog h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.filter-catalog span p {
+    font-size: 12px;
+}
+.filter-info {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0 10px 0;
+}
+.filter-catalog .row {
+    margin: 0 auto 20px auto;
+}
+.filter-info svg {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.filter-catalog .filter-info p {
+    font-size: 14px;
+    text-align: center;
+}
+.filter-catalog a.comments {
+    position: relative;
+    float: right;
+}
+.filter-catalog .pagination > li > a {
+    font-size: 16px;
+    color: #3d3d3d;
+    padding: 6px 6px;
+    border: 0;
+}
+.add-the-places {
+    padding: 30px 60px 60px 60px;
+    font-size: 16px;
+}
+.add-the-places input {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.add-the-places select {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+form.add-places #comment-field {
+    width: 100%;
+    height: 265px;
+    padding-left: 15px;
+}
+form.add-places textarea {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+form.add-places input.price {
+    width: 80%;
+}
+div.bait,
+div.lure {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #aaaaaa;
+    margin-bottom: 10px;
+    padding: 0 10px 10px 10px;
+}
+div.catching-views {
+    width: 100%;
+    height: 170px;
+    border: 1px solid #aaaaaa;
+    margin-bottom: 10px;
+    padding: 0 10px 10px 10px;
+}
+div.lives,
+div.features {
+    display: inline-block;
+    width: 48%;
+    height: 450px;
+    border: 1px solid #aaaaaa;
+    margin-bottom: 10px;
+    padding: 0 10px 10px 10px;
+}
+div.lives {
+    margin-right: 1.5%;
+}
+div.features {
+    margin-left: 1.5%;
+}
+#ho-to-go {
+    width: 100%;
+    height: 230px;
+    background-color: #0c141f;
+    color: #d9dadc;
+}
+form.add-places h4 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+div.checkboxs p {
+    height: 30px;
+    vertical-align: bottom;
+}
+input.selection {
+    width: 30px;
+    float: right;
+    display: inline-block;
+}
+form.add-places #food-fish {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 5px;
+}
+div.road {
+    width: 100%;
+    height: 255px;
+    background-color: #0c141f;
+    color: #a4a7ab;
+    border: 1px solid #aaaaaa;
+    padding: 10px 15px 15px 15px;
+}
+form.add-places #contact-owner {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+form.add-places input.foto {
+    height: 170px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+input.add-place {
+    width: 100%;
+    height: 60px;
+    background-color: #0c141f;
+    color: #a4a7ab;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.navbar .header p.cab {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    left: 160px;
+    bottom: 27px;
+}
+.cabinet {
+    padding: 25px;
+}
+.cabinet img.ava {
+    width: 150px;
+    height: 150px;
+}
+.cabinet a.corect {
+    position: relative;
+    bottom: 60px;
+    left: 270px;
+    color: black;
+    font-size: 12px;
+}
+.cabinet p.name {
+    display: inline-block;
+    font-size: 40px;
+}
+.cabinet div.number-phone {
+    width: 100%;
+    height: 90px;
+    text-align: right;
+    vertical-align: middle;
+    background-color: #0c141f;
+    color: #d9dadc;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+}
+.cabinet div.mail-info h3 {
+    text-align: right;
+}
+.cabinet div.mail-info p {
+    text-align: justify;
+    font-size: 14px;
+}
+.cabinet .medal {
+    margin-left: 10px;
+}
+.cabinet .medal h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.cabinet .medal img {
+    height: 45px;
+    width: 45px;
+}
+.cabinet .medal p {
+    font-size: 20px;
+}
+.cabinet .my-place {
+    margin-top: 20px;
+}
+.cabinet .my-place h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.cabinet .my-place p {
+    margin-bottom: 30px;
+}
+.cabinet .my-place p a {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #000;
+}
+.modal-form .btn {
+    z-index: 101;
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    background-color: rgba(0, 0, 0, .0);
+    padding: 0;
+}
+#modal-1 .modal-dialog {
+    width: 100%;
+}
+#modal-1 .modal-content {
+    background-color: #006a9b;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 0;
+    color: #d9dadc;
+}
+.modal-dialog .modal-header {
+    padding: 5px;
+    border-bottom: none;
+}
+.modal-content .search-a-place .check {
+    width: 14px;
+    height: 14px;
+}
+.modal-body select {
+    color: #969696;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.modal-body input.selection {
+    width: 20px;
+    height: 20px;
+}
+.modal-body input.search {
+    width: 100%;
+    height: 50px;
+    background-color: #00aeff;
+    color: #d9dadc;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+}
+#modal-1 img {
+    width: 50px;
+    height: 310px;
+}
+.main_footer {
+    background-color: #006a9b;
+    height: 250px;
+    font-size: 13px;
+    text-align: center;
+    padding: 50px 0 0 0;
+    overflow: hidden;
+}
+.social_wrap ul li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: #202d3d;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin: 20px 10px auto auto;
+}
+.social_wrap ul li i {
+    display: inline-block;
+    color: #0c141f;
+    margin-top: 7px;
+}
